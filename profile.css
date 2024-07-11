@@ -8,7 +8,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 400px;
     
 }
 .container{
@@ -61,22 +61,23 @@ display: block;
     margin-bottom:2px;
     text-align: center;
     padding-top: 28px;
-    background-color:#F5E8DF;
+    background-color:#f4e6dc;
     cursor: pointer;
     transition:all 0.5s ease-in-out;
  }
- .detail:active {
-    transform: scale(0.95);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ .detail:hover {
+    background-color:#f5d8c4;
  }
  .detail .value{
     display: block;
-    font-size: 18px;
+    font-size: 15px;
     color: #786450;
+    font-weight: bold;
  }
  .detail .tag{
     font-size: 11px;
     color: #786450;
+    font-weight: lighter;
  }
 .right{
     float:right;
@@ -113,5 +114,12 @@ display: block;
     border-radius: 15px;
     color: #786450;
     border:solid 1px #786450;
+    font-weight: bold;
     
+}
+
+.contact button:hover{
+    background-color: #786450;
+    color: white;
+
 }
